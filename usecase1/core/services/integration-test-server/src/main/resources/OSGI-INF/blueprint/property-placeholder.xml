@@ -7,7 +7,7 @@
     http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
 
     <!-- Property Placeholder -->
-    <cm:property-placeholder persistent-id="com.davita.esb.empi.addorupdateempi" update-strategy="reload"
+    <cm:property-placeholder persistent-id="com.mycompany.esb.empi.addorupdateempi" update-strategy="reload"
         xmlns="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.1.0">
         <default-properties>
             <property name="nextgate.ws.uri" value="/PersonEJBService/PersonEJB" />

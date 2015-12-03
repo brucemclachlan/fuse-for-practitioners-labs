@@ -123,11 +123,11 @@
     <message name="addOrUpdateSystemRecordResponse">
         <part name="parameters" element="tns:addOrUpdateSystemRecordResponse" />
     </message>
-    <message name="executeMatchUpdate">
-        <part name="parameters" element="tns:executeMatchUpdate" />
+    <message name="performEmpiRecordUpdate">
+        <part name="parameters" element="tns:performEmpiRecordUpdate" />
     </message>
-    <message name="executeMatchUpdateResponse">
-        <part name="parameters" element="tns:executeMatchUpdateResponse" />
+    <message name="performEmpiRecordUpdateResponse">
+        <part name="parameters" element="tns:performEmpiRecordUpdateResponse" />
     </message>
     <message name="getCodesByType">
         <part name="parameters" element="tns:getCodesByType" />
@@ -517,11 +517,11 @@
             <fault message="tns:ProcessingException" name="ProcessingException" wsam:Action="http://webservice.index.mdm.sun.com/PersonEJB/addOrUpdateSystemRecord/Fault/ProcessingException" />
             <fault message="tns:UserException" name="UserException" wsam:Action="http://webservice.index.mdm.sun.com/PersonEJB/addOrUpdateSystemRecord/Fault/UserException" />
         </operation>
-        <operation name="executeMatchUpdate">
-            <input wsam:Action="http://webservice.index.mdm.sun.com/PersonEJB/executeMatchUpdateRequest" message="tns:executeMatchUpdate" />
-            <output wsam:Action="http://webservice.index.mdm.sun.com/PersonEJB/executeMatchUpdateResponse" message="tns:executeMatchUpdateResponse" />
-            <fault message="tns:ProcessingException" name="ProcessingException" wsam:Action="http://webservice.index.mdm.sun.com/PersonEJB/executeMatchUpdate/Fault/ProcessingException" />
-            <fault message="tns:UserException" name="UserException" wsam:Action="http://webservice.index.mdm.sun.com/PersonEJB/executeMatchUpdate/Fault/UserException" />
+        <operation name="performEmpiRecordUpdate">
+            <input wsam:Action="http://webservice.index.mdm.sun.com/PersonEJB/performEmpiRecordUpdateRequest" message="tns:performEmpiRecordUpdate" />
+            <output wsam:Action="http://webservice.index.mdm.sun.com/PersonEJB/performEmpiRecordUpdateResponse" message="tns:performEmpiRecordUpdateResponse" />
+            <fault message="tns:ProcessingException" name="ProcessingException" wsam:Action="http://webservice.index.mdm.sun.com/PersonEJB/performEmpiRecordUpdate/Fault/ProcessingException" />
+            <fault message="tns:UserException" name="UserException" wsam:Action="http://webservice.index.mdm.sun.com/PersonEJB/performEmpiRecordUpdate/Fault/UserException" />
         </operation>
         <operation name="getCodesByType">
             <input wsam:Action="http://webservice.index.mdm.sun.com/PersonEJB/getCodesByTypeRequest" message="tns:getCodesByType" />
@@ -1055,7 +1055,7 @@
                 <soap:fault name="UserException" use="literal" />
             </fault>
         </operation>
-        <operation name="executeMatchUpdate">
+        <operation name="performEmpiRecordUpdate">
             <soap:operation soapAction="" />
             <input>
                 <soap:body use="literal" />

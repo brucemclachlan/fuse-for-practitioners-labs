@@ -58,9 +58,9 @@
 
     <xs:element name="executeMatchResponse" type="tns:executeMatchResponse" />
 
-    <xs:element name="executeMatchUpdate" type="tns:executeMatchUpdate" />
+    <xs:element name="performEmpiRecordUpdate" type="tns:performEmpiRecordUpdate" />
 
-    <xs:element name="executeMatchUpdateResponse" type="tns:executeMatchUpdateResponse" />
+    <xs:element name="performEmpiRecordUpdateResponse" type="tns:performEmpiRecordUpdateResponse" />
 
     <xs:element name="getActiveEUID" type="tns:getActiveEUID" />
 
@@ -628,14 +628,14 @@
         </xs:sequence>
     </xs:complexType>
 
-    <xs:complexType name="executeMatchUpdate">
+    <xs:complexType name="performEmpiRecordUpdate">
         <xs:sequence>
             <xs:element name="callerInfo" type="tns:callerInfo" minOccurs="0" />
             <xs:element name="sysObjBean" type="tns:systemPerson" minOccurs="0" />
         </xs:sequence>
     </xs:complexType>
 
-    <xs:complexType name="executeMatchUpdateResponse">
+    <xs:complexType name="performEmpiRecordUpdateResponse">
         <xs:sequence>
             <xs:element name="return" type="tns:matchColResult" minOccurs="0" />
         </xs:sequence>
