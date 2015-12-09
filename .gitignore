@@ -10,4 +10,5 @@
 LMSClass/
 *.nogit/
 *audio/
+target/
 *common/

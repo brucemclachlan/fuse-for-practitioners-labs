@@ -16,5 +16,5 @@
                     xmlns:e="http://webservice.index.mdm.sun.com/"
                     xmlns:s="http://webservice.index.mdm.sun.com/" />
 
-    <bean id="personEJBImpl" class="com.company.app.test.PersonEJBImpl"/>
+    <bean id="personEJBImpl" class="com.mycompany.nextgate.test.PersonEJBImpl"/>
 </blueprint>
