@@ -4,7 +4,10 @@
 ~$*
 .DS_Store
 *.svn/
+.settings/
 *.nogit/
+.project
+.classpath
 *project/
 *projects/
 LMSClass/
